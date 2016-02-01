@@ -2,14 +2,12 @@
 
 var Navbar = ReactBootstrap.Navbar;
 var NavItem = ReactBootstrap.NavItem;
-var NavDropdown = ReactBootstrap.NavDropdown;
 var Nav = ReactBootstrap.Nav;
-var MenuItem = ReactBootstrap.MenuItem;
 var GlyphIcon = ReactBootstrap.Glyphicon;
 var NavbarForm = ReactBootstrap.Form;
 var Input = ReactBootstrap.Input;
-
 const SearchGlyphIcon = React.createElement(GlyphIcon, { glyph: "search" });
+const UserGlyphIcon = React.createElement(GlyphIcon, { glyph: "user" });
 
 const navbarInstance = React.createElement(
     Navbar,
@@ -51,12 +49,22 @@ const navbarInstance = React.createElement(
             )
         ),
         React.createElement(
+            Nav,
+            { pullRight: true },
+            React.createElement(
+                NavItem,
+                { eventKey: 5, href: "#" },
+                UserGlyphIcon
+            )
+        ),
+        React.createElement(
             Navbar.Form,
             { pullRight: true },
             React.createElement(
                 "form",
                 null,
-                React.createElement(Input, { type: "text", addonAfter: SearchGlyphIcon })
+                React.createElement(Input, { type: "text", addonAfter: SearchGlyphIcon }),
+                ' '
             )
         )
     )

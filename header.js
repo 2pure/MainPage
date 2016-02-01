@@ -2,14 +2,12 @@
 
 var Navbar = ReactBootstrap.Navbar;
 var NavItem = ReactBootstrap.NavItem;
-var NavDropdown = ReactBootstrap.NavDropdown;
 var Nav = ReactBootstrap.Nav;
-var MenuItem = ReactBootstrap.MenuItem;
 var GlyphIcon = ReactBootstrap.Glyphicon;
 var NavbarForm = ReactBootstrap.Form;
 var Input = ReactBootstrap.Input;
-
-const SearchGlyphIcon = <GlyphIcon glyph="search"/>
+const SearchGlyphIcon = <GlyphIcon glyph="search"/>;
+const UserGlyphIcon =<GlyphIcon glyph="user" />
 
 
 const navbarInstance = (
@@ -26,11 +24,16 @@ const navbarInstance = (
                 <NavItem eventKey={2} href="#">Спектакли</NavItem>
                 <NavItem eventKey={3} href="#">Театры</NavItem>
             </Nav>
+            <Nav pullRight>
+                <NavItem eventKey={5} href="#">{UserGlyphIcon}</NavItem>
+            </Nav>
             <Navbar.Form pullRight>
                 <form>
                     <Input type="text" addonAfter={SearchGlyphIcon} />
+                    {' '}
                 </form>
             </Navbar.Form>
+
         </Navbar.Collapse>
     </Navbar>
 );
