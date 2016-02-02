@@ -6,8 +6,8 @@ var Nav = ReactBootstrap.Nav;
 var GlyphIcon = ReactBootstrap.Glyphicon;
 var NavbarForm = ReactBootstrap.Form;
 var Input = ReactBootstrap.Input;
-const SearchGlyphIcon = <GlyphIcon glyph="search"/>;
-const UserGlyphIcon = <GlyphIcon glyph="user"/>;
+const SearchGlyphIcon = <GlyphIcon glyph="search" href="/#"/>;
+const UserGlyphIcon = <GlyphIcon glyph="user" href="/#"/>;
 
 const navbarInstance = (
     <Navbar inverse>

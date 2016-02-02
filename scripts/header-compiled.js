@@ -6,8 +6,8 @@ var Nav = ReactBootstrap.Nav;
 var GlyphIcon = ReactBootstrap.Glyphicon;
 var NavbarForm = ReactBootstrap.Form;
 var Input = ReactBootstrap.Input;
-const SearchGlyphIcon = React.createElement(GlyphIcon, { glyph: "search" });
-const UserGlyphIcon = React.createElement(GlyphIcon, { glyph: "user" });
+const SearchGlyphIcon = React.createElement(GlyphIcon, { glyph: "search", href: "/#" });
+const UserGlyphIcon = React.createElement(GlyphIcon, { glyph: "user", href: "/#" });
 
 const navbarInstance = React.createElement(
     Navbar,
