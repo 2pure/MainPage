@@ -7,8 +7,7 @@ var GlyphIcon = ReactBootstrap.Glyphicon;
 var NavbarForm = ReactBootstrap.Form;
 var Input = ReactBootstrap.Input;
 const SearchGlyphIcon = <GlyphIcon glyph="search"/>;
-const UserGlyphIcon =<GlyphIcon glyph="user" />
-
+const UserGlyphIcon = <GlyphIcon glyph="user"/>;
 
 const navbarInstance = (
     <Navbar inverse>
@@ -29,7 +28,7 @@ const navbarInstance = (
             </Nav>
             <Navbar.Form pullRight>
                 <form>
-                    <Input type="text" addonAfter={SearchGlyphIcon} />
+                    <Input type="text" addonAfter={SearchGlyphIcon}/>
                     {' '}
                 </form>
             </Navbar.Form>

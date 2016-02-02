@@ -2,10 +2,18 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/content-compiled.js" />
+        <item url="file://$PROJECT_DIR$/webpack.config-compiled.js" />
+        <item url="file://$PROJECT_DIR$/mainSignature-compiled.js" />
         <item url="file://$PROJECT_DIR$/header-compiled.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/mianSignature-compiled.js" />
+      <root url="file://$PROJECT_DIR$/mianSignature-compiled.js" />
+      <root url="file://$PROJECT_DIR$/content-compiled.js" />
+      <root url="file://$PROJECT_DIR$/webpack.config-compiled.js" />
+      <root url="file://$PROJECT_DIR$/mainSignature-compiled.js" />
       <root url="file://$PROJECT_DIR$/header-compiled.js" />
     </CLASSES>
     <SOURCES />
